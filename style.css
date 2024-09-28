@@ -436,28 +436,28 @@ footer li {
 /* mobile phone */
 @media (max-width: 576px) {
     html {
-       font-size: 60%;
+       font-size: 75%;
     }
     .simply-countdown>.simply-section {
-        padding: 45px;
-        margin: 3px;
+        padding: 30px;
+        margin: 10px;
     }
 
     .timeline li .timeline-image {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
     
     .timeline li .timeline-panel {
-        width: 65%;
-        transform: translateX(-20px);
+        width: 70%;
+        transform: translateX(-10px);
     }
 
     .timeline li.timeline-panel::before {
-        top: 30px;
+        top: 25px;
     }
     
     .timeline li.timeline-panel::after {
-        top: 31px;
+        top: 25px;
     }
    }
